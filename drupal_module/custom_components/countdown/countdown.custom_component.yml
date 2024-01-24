@@ -1,0 +1,17 @@
+name: Countdown
+category: cpt_cat_CATEGORY
+js:
+  js/script.js: {}
+css:
+  css/style.css: {}
+preview_image: preview.jpg
+form: form.json
+template: template.html.twig
+availability:
+  -
+    type: node
+    bundles:
+      - event
+      - page
+dependencies:
+  - core/jquery

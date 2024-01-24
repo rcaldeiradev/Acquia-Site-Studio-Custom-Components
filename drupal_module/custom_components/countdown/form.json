@@ -1,0 +1,64 @@
+{
+    "canvas": [
+        {
+            "type": "item",
+            "uid": "component-drop-zone-placeholder",
+            "title": "Component drop zone",
+            "status": {
+                "collapsed": true
+            },
+            "iconColor": "content",
+            "uuid": "9149fbfd-9265-4fba-a988-1643a2dc7d44",
+            "parentUid": "root"
+        }
+    ],
+    "disabledNodes": {},
+    "componentForm": [
+        {
+            "type": "form-field",
+            "uid": "form-input",
+            "title": "Input",
+            "translate": true,
+            "status": {
+                "collapsed": false
+            },
+            "iconColor": "formField",
+            "uuid": "a9b47d76-37e4-4574-ad4f-b6ec65739370",
+            "parentUid": "root",
+            "children": []
+        }
+    ],
+    "model": {
+        "a9b47d76-37e4-4574-ad4f-b6ec65739370": {
+            "settings": {
+                "type": "cohTextBox",
+                "title": "Message",
+                "schema": {
+                    "type": "string",
+                    "escape": true,
+                    "maxLength": null
+                },
+                "machineName": "message",
+                "tooltipPlacement": "auto right",
+                "placeholder": "Insert here",
+                "required": false
+            }
+        },
+        "9149fbfd-9265-4fba-a988-1643a2dc7d44": {
+            "settings": {
+                "dropzoneHideSelector": ""
+            }
+        }
+    },
+    "mapper": {
+        "a9b47d76-37e4-4574-ad4f-b6ec65739370": {},
+        "9149fbfd-9265-4fba-a988-1643a2dc7d44": {}
+    },
+    "previewModel": {
+        "a9b47d76-37e4-4574-ad4f-b6ec65739370": {}
+    },
+    "variableFields": {
+        "a9b47d76-37e4-4574-ad4f-b6ec65739370": []
+    },
+    "meta": {}
+}

@@ -1,0 +1,5 @@
+name: "Drupal Module"
+package: "Custom"
+description: "Drupal module"
+type: module
+core_version_requirement: ^10
